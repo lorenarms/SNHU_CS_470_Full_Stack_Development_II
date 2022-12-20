@@ -336,14 +336,19 @@ Currently there is no license for this application, it is free to use by anyone 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/lorenarms/SNHU_CS_465_Full-Stack-Development-I.svg?style=for-the-badge
 [contributors-url]: https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/graphs/contributors
+  
 [forks-shield]: https://img.shields.io/github/forks/lorenarms/SNHU_CS_470_Full-Stack-Development-II.svg?style=for-the-badge
 [forks-url]: https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/network/members
+  
 [stars-shield]: https://img.shields.io/github/stars/lorenarms/SNHU_CS_470_Full-Stack-Development-II.svg?style=for-the-badge
 [stars-url]: https://github.com/lorenarms/SNHU_CS_470_Full-Stack-Development-II/stargazers
+  
 [issues-shield]: https://img.shields.io/github/issues/lorenarms/SNHU_CS_470_Full-Stack-Development-II.svg?style=for-the-badge
 [issues-url]: https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/issues
+  
 [license-shield]: https://img.shields.io/github/license/lorenarms/SNHU_CS_465_Full-Stack-Development-I.svg?style=for-the-badge
 [license-url]: https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/blob/master/LICENSE.txt
+  
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0077FF
 [linkedin-url]: https://linkedin.com/in/lorenarms95
 
