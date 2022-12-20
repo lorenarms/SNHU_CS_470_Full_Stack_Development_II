@@ -335,9 +335,9 @@ Currently there is no license for this application, it is free to use by anyone 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/lorenarms/SNHU_CS_465_Full-Stack-Development-I.svg?style=for-the-badge
-[contributors-url]: https://github.com/lorenarms/SNHU_CS_470_Full-Stack-Development-II/graphs/contributors
+[contributors-url]: https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/lorenarms/SNHU_CS_470_Full-Stack-Development-II.svg?style=for-the-badge
-[forks-url]: https://github.com/lorenarms/SNHU_CS_470_Full-Stack-Development-II/network/members
+[forks-url]: https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/network/members
 [stars-shield]: https://img.shields.io/github/stars/lorenarms/SNHU_CS_470_Full-Stack-Development-II.svg?style=for-the-badge
 [stars-url]: https://github.com/lorenarms/SNHU_CS_470_Full-Stack-Development-II/stargazers
 [issues-shield]: https://img.shields.io/github/issues/lorenarms/SNHU_CS_470_Full-Stack-Development-II.svg?style=for-the-badge
