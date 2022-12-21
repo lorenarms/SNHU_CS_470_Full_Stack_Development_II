@@ -164,22 +164,23 @@ My approach to solving the above problem (and all others in any other aspect of 
 ## Usage
 
 <h3>Front-end Customer Facing Website</h3>
-<p>The front end of the website can be accessed <a href="">here</a> </p>
+<p>The front end of the website can be accessed <a href="http://bucket-burydbultrimilog.s3-website-us-east-1.amazonaws.com/">here</a> </p>
+<p>The website is a mock-up of a study page that allows users to select a topic and then add questions to that topic. Selecting the topic will bring up the question page for that topic. Users can add questions and delete questions. Selecting a question allows users to add answers that question.</p>
 
 <table>
     <tr>
-        <th>Homepage</th>
-        <th>Travel Page</th>    
+        <th>Question List</th>
+        <th>Adding a Question</th>    
     </tr>
     <tr>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/user_facing_page.png" alt="[main user page]" style="height:300px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/travel_page_user.png" alt="[travel page]" style="height:300px;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/blob/main/images/questions.png" alt="[question list page]" style="height:300px;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/blob/main/images/adding%20a%20question.png" alt="[adding a question]" style="height:300px;"></td>
     </tr>
         
 </table>
 
 <h3>Backend SPA (using Angular, Express, node.js, and MongoDB)</h3>
-<p>The project incorporated a administrative backend that utilized the Angular, Express, node.js, and MongoDB (MEAN) stack system to deliver a single-page application to administrators. In this SPA a user could log-in, Add trips, Edit trips, and Delete trips. All changes made in the backend were instantly visible on the front end page for customers.</p>
+<p>The backend uses the AWS environment to serve the front end website as well as store data in DynamoDB. The data is accessed via Lambda functions through the Amazon API Gateway.</p>
 <table>
     <tr>
         <th>Homepage</th>
