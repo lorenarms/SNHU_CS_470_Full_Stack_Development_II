@@ -42,11 +42,11 @@
     <a href="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/tree/main/writeups/Docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/blob/main/images/travlr_login.gif">View Demo</a>
+    <a href="http://bucket-burydbultrimilog.s3-website-us-east-1.amazonaws.com/">View Demo</a>
     ·
-    <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/issues">Report Bug</a>
+    <a href="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/issues">Report Bug</a>
     ·
-    <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/issues">Request Feature</a>
+    <a href="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/issues">Request Feature</a>
   </p>
 </div>
 
@@ -87,19 +87,19 @@
 Course Prerequisites
 </h3>
 
-- [x] 108 credits including CS 340
+- [x] <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I">CS 465</a> 
 
 <h3>
 Course Description
 </h3>
-<p>Students will design and develop a full stack application through the utilization of programming language frameworks. In creating a full stack application, students will also be responsible for developing a database as well as the code that interfaces their application to the database.
+<p>students will develop a full stack application that runs in the cloud. Through the application of cloud-based development principles and best practices, students will take their software stack from Full Stack Development I and utilize frameworks to build the cloud architecture upon which the software stack application will run. In addition, students will demonstrate their career readiness by articulating highly technical content to various audiences and in various formats. This course is the second in a two-course sequence.
 </p>
 <p>
 This course covers the following competencies, which represent the knowledge and skills relevant to your field:
 
-- [x] CS-30427: Design the architecture of a web application
-- [x] CS-40428: Build a web application using frameworks
-- [x] CS-40429: Develop and integrate a database using frameworks
+- [x] CS-40430: Apply cloud-based development principles and best practices in application development
+- [x] CS-40431: Develop applications that run on cloud-based frameworks
+- [x] CS-40432: Defend design decisions to a variety of audiences and in a variety of formats
 
 </p>
 
@@ -108,17 +108,19 @@ This course covers the following competencies, which represent the knowledge and
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div align = "center">
-  <h3>"Travlr" Web Application</h3>
-  <img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/blob/main/images/user_facing_page.png" alt="Main" width="500"><p></p>
+  <h3>AWS Web Application</h3>
+  <img src="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/blob/main/images/main_page.png" alt="Main" width="500"><p></p>
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 </div>
 
 <p>
-  This class focused on the development of a single web application using the MEAN stack process (MongoDB, express.js framework, Angular frontend framework, and node.js backend server framework). The entire project was designed as a travel website, "Travlr Getaways", and can be found <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/tree/main/CS-465%20Travlr" target="_blank"> in this folder</a>.
-This was a very challenging, very interesting, and very <i>very</i> fun project for me to work on. I enjoy web development more than any other type of project, so this class and application being the culmination of all my learning was just too perfect.
+  During this course we explored the use of containers for development of a web application. Starting with Docker and Docker compose, a simple application was developed that made use of Angular for a front end, node.js for the backend, and MongoDB to store data locally. 
+  
+  Eventually the application was moved to the cloud, taking advantage of Amazon's Web Service environment including DynamoDB and Lambda functions to handle data streams and user interaction. 
+ 
+This project involved a lot of problem solving and debugging as the AWS environment is very particular in how interactions between the Lambda functions and the API are implemented. Since problem solving is my forte, I thouroughly enjoyed very aspect of this build. Check out the final product with the link above!
 </p>
 
-<p>To get a better idea of what this whole project was about, check out the <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/module-6/writeups/Project%20Guidelines%20and%20Rubric.pdf" target="_blank"> Guidelines and Rubric document</a>. You can also view the <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/module-6/writeups/CS%20465%20Travlr%20Getaways%20Wireframe.pdf" target="_blank"> Wireframe document </a>that shows you what the completed web project *should* look like when it's completed. This project went through several design changes as it was developed, but the wireframe was the main guide to get to the finished product. The <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/writeups/Software%20Design%20Document%20-Module%207%20-%20Artl.docx.pdf" target="_blank"> final design document</a> summarizes the entire project, including routes and testing.</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -127,6 +129,7 @@ This was a very challenging, very interesting, and very <i>very</i> fun project 
 
 This project used the following frameworks, and will require them to run on your machine. See the <a href="#installation">installation</a> section for more information.
 
+[![Angular][Angular.io]][Angular-url]
 
 [![Node][Node.js]][Node-url]
 
@@ -134,7 +137,11 @@ This project used the following frameworks, and will require them to run on your
 
 [![Mongodb][Mongodb]][Mongodb-url]
 
-[![Angular][Angular.io]][Angular-url]
+[![Docker][Docker]][Docker-url]
+
+[![DynamoDB][DynamoDB]][DynamoDB-url]
+
+[![AWS][AWS]][AWS-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -143,7 +150,7 @@ This project used the following frameworks, and will require them to run on your
 ### How I Developed The Project
 
   <p>
-While the above project had a guide to follow during development, the guide was far from perfect, and there were many instances where refactoring was a necessity. Some of the installed component's versions are newer than what the original code was written for, and thus some changes needed to be made to get routes and other parts to work properly. With Javascript not being my primary language, there was also a bit of a steep learning curve at first. However, problem-solving is my forte, and I view debugging as not so much a tedium but a fun exploration of the code. Therefore making the project work was a very enjoyable learning experience.
+This project followed several guides to get the containers set up on a local machine, and more guides to access and set up the AWS environment. Development took about seven weeks, and made use of pre-built Angular application found <a href="https://github.com/AngularTemplates/learn-angular-from-scratch-step-by-step">here</a>. The API for this project is also pre-built and can be found <a href="https://github.com/AngularTemplates/learn-how-to-build-a-mean-stack-application">here</a>.
 </p>
 <p>
 My approach to solving the above problem (and all others in any other aspect of my life) is methodical and logical. I typically know the limitations and abilites of the tools I am using to solve the problem, and using a one-step-at-a-time method helps me to work efficiently. I rarely have the problem in missing the "forest for the trees"; in fact, I'm very good at stepping back from the details and seeing the big picture for what it is, and then stepping back into the details with an understanding of how they effect the overall problem / solution.
@@ -153,65 +160,11 @@ My approach to solving the above problem (and all others in any other aspect of 
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-To install and run this application on your own machine, you'll need to install the frameworks listed above, as well as be running an IDE such as Visual Studio Code or similar.
-
-### Prerequisites
-
-Start by ensuring you have npm installed on your machine.
-
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-To install and run the application, follow the instructions below.
-
-1. Clone the repo
-   ```sh
-   gh repo clone lorenarms/SNHU_CS_465_Full-Stack-Development-I
-   ```
-2. Open the folder in VS Code
-3. Navigate to the "app_admin" folder
-   ```sh
-   cd app_admin
-   ```  
-4. Install NPM packages
-   ```sh
-   npm install
-   ```
-5. Navigate to the "app_server" folder
-   ```sh
-   cd ..
-   cd app_server
-   ```
-6. Install NPM packages
-   ```sh
-   npm install
-   ```
-7. In the "app_server" folder, start the server
-   ```sh
-   npm run start:server
-   ```
-8. In the "app_admin" folder, start the Angular server
-   ```sh
-   ng serve
-   ```
-9. Open a web browser and navigate to "http://localhost:3000" to access the API
-10. Open another browser tab / window and navigate to "http://localhost:4200" to access the backend
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 <h3>Front-end Customer Facing Website</h3>
-<p>The main customer page uses standard HTML with javascript and handlebars to access the backend database (served by MongoDB local hosting) and display available information to customers. </p>
+<p>The front end of the website can be accessed <a href="">here</a> </p>
 
 <table>
     <tr>
@@ -363,4 +316,10 @@ Currently there is no license for this application, it is free to use by anyone 
 [Mongodb-url]: https://www.mongodb.com/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
+[DynamoDB-url]: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html
+[DynamoDB]: https://img.shields.io/badge/amazon_dynamodb-ccac00?style=for-the-badge&logo=amazondynamodb&logoColor=000000
+[AWS]: https://img.shields.io/badge/amazon_aws-ccac00?style=for-the-badge&logo=amazonaws&logoColor=000000
+[AWS-url]: https://aws.amazon.com/
+[Docker]: https://img.shields.io/badge/docker-3232FF?style=for-the-badge&logo=docker&logoColor=ffffff
+[Docker-url]: https://www.docker.com/
 
