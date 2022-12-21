@@ -158,6 +158,31 @@ My approach to solving the above problem (and all others in any other aspect of 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
+## Getting Started
+
+To install and run the local instance of this application on your own machine, you'll need to install Docker Desktop (Windows). You will also need to be running an IDE such as Visual Studio Code or similar.
+
+### Prerequisites
+
+Start by ensuring you have npm installed on your machine.
+
+  ```sh
+  npm install npm@latest -g
+  ```
+  
+Get Docker Desktop <a href="https://www.docker.com/products/docker-desktop/">here</a>.
+
+### Installation
+
+To install and run the application, follow the instructions below.
+
+1. Follow the <a href="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/blob/main/writeups/Guides/CS%20470%20Module%20One%20Assignment%20-%20Docker%20Containers%20Guide.pdf">guide</a> to get Docker Desktop installed and running.
+2. Follow the next <a href="">guide</a> to fork and install the "Learn Angular from Scratch" (lafs) repos. You will containerize both repos.
+3. Follow the last <a href="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/blob/main/writeups/Guides/CS%20470%20Module%20Two%20Assignment%20-%20Docker%20Compose%20Guide.pdf">guide</a> to create a network of containers using Docker Compose.
+
+4. Open a web browser and navigate to "http://localhost:3000" to access the API
+5. Open another browser tab / window and navigate to "http://localhost:4200" to access the backend
 
 
 <!-- USAGE EXAMPLES -->
@@ -180,35 +205,44 @@ My approach to solving the above problem (and all others in any other aspect of 
 </table>
 
 <h3>Backend SPA (using Angular, Express, node.js, and MongoDB)</h3>
-<p>The backend uses the AWS environment to serve the front end website as well as store data in DynamoDB. The data is accessed via Lambda functions through the Amazon API Gateway.</p>
+<p>The backend uses the AWS environment to serve the front end website as well as store data in DynamoDB. The data is accessed via Lambda functions through the Amazon API Gateway. The entire front end is stored in the Amazon S3 Bucket environment, as shown in the below image.</p>
+
 <table>
     <tr>
-        <th>Homepage</th>
-        <th>Login Screen</th>
-        <th>Logged In</th>
+        <th>S3 Bucket</th>
+        <th>API Gateway</th>     
     </tr>
     <tr>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/user_logged_out.png" alt="[homepage]" style="height:200px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/login_page.png" alt="[login]" style="height:200px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/main_page.png" alt="[logged in]" style="height:200px;"></td>
-    </tr>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/blob/main/images/S3Bucket.png" alt="[bucket]" style="height:auto;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/blob/main/images/APIGateway.png" alt="[gateway]" style="height:auto;"></td>
+   </tr>
 </table>
 
 <table>
     <tr>
-        <th>Editing a Trip</th>
-        <th>Trip Succesfully Edited</th>
-        <th>Trip Deleted</th
+        <th>DynamoDB Questions Table</th>
+        <th>Lambda Function Sample</th>
+   </tr>
+    <tr>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/blob/main/images/dynamoDBQuestions.png" alt="[dynamo]" style="height:auto;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/blob/main/images/upsertLambdaFunction.png" alt="[lambda]" style="height:auto;"></td>
+   </tr>
+</table>
+
+<p>
+  In order to test the application before migrating to the AWS cloud, a set of containers were configured using Docker Compose. These containers ran in tandem on a local machine, as illustrated below (Docker Desktop, "lafs-web" and "lafs-api"). MongoDB stands in for Dynamo, and the container front end is accessable through local host port 4000.
+</p>
+
+<table>
+    <tr>
+        <th>Docker Compose Project Running Locally</th>
     </tr>
     <tr>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/editing_trip.png" alt="[edit]" style="height:200px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/trip_edited_successfully.png" alt="[success]" style="height:200px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/trip_deleted_successfully.png" alt="[deleted]" style="height:200px;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/blob/main/images/dockerComposeRunning.png" alt="[docker]" style="height:auto;"></td>
     </tr>
 </table>
 
-
-_For more examples, please refer to the [Design Document](https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/blob/main/writeups/Software%20Design%20Document%20-Module%207%20-%20Artl.docx.pdf)_
+_For more information, please refer to the [Guides](https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/tree/main/writeups/Guides)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -217,12 +251,12 @@ _For more examples, please refer to the [Design Document](https://github.com/lor
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add README
-- [ ] Add https routing
-- [ ] Add Registration button to access service
-- [ ] Add pagenation to backend
+- [x] Include guides
+- [x] Compile screenshots
+- [x] Link to documentation
+- [x] Add final README
 
-See the [open issues](https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
