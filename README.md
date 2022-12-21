@@ -30,16 +30,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I">
-    <img src="images/logo.png" alt="Logo" width="210">
+  <a href="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II">
+    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Logo" width="210">
   </a>
 
-  <h3 align="center">CS 465: Full Stack Development I</h3>
+  <h3 align="center">CS 470: Full Stack Development II</h3>
 
   <p align="center">
     Lawrence Artl III
     <br />
-    <a href="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/tree/main/writeups"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/tree/main/writeups/Docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/blob/main/images/travlr_login.gif">View Demo</a>
@@ -334,20 +334,21 @@ Currently there is no license for this application, it is free to use by anyone 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/lorenarms/SNHU_CS_465_Full-Stack-Development-I.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/lorenarms/SNHU_CS_470_Full_Stack_Development_II.svg?style=for-the-badge
 [contributors-url]: https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/graphs/contributors
   
-[forks-shield]: https://img.shields.io/github/forks/lorenarms/SNHU_CS_470_Full-Stack-Development-II.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/lorenarms/SNHU_CS_470_Full_Stack_Development_II.svg?style=for-the-badge
+                
 [forks-url]: https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/network/members
   
-[stars-shield]: https://img.shields.io/github/stars/lorenarms/SNHU_CS_470_Full-Stack-Development-II.svg?style=for-the-badge
-[stars-url]: https://github.com/lorenarms/SNHU_CS_470_Full-Stack-Development-II/stargazers
+[stars-shield]: https://img.shields.io/github/stars/lorenarms/SNHU_CS_470_Full_Stack_Development_II.svg?style=for-the-badge
+[stars-url]: https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/stargazers
   
-[issues-shield]: https://img.shields.io/github/issues/lorenarms/SNHU_CS_470_Full-Stack-Development-II.svg?style=for-the-badge
-[issues-url]: https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/issues
+[issues-shield]: https://img.shields.io/github/issues/lorenarms/SNHU_CS_470_Full_Stack_Development_II.svg?style=for-the-badge
+[issues-url]: https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/issues
   
-[license-shield]: https://img.shields.io/github/license/lorenarms/SNHU_CS_465_Full-Stack-Development-I.svg?style=for-the-badge
-[license-url]: https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/lorenarms/SNHU_CS_470_Full_Stack_Development_II.svg?style=for-the-badge
+[license-url]: https://github.com/lorenarms/SNHU_CS_470_Full_Stack_Development_II/blob/master/LICENSE.txt
   
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0077FF
 [linkedin-url]: https://linkedin.com/in/lorenarms95
